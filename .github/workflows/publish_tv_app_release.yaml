@@ -2,8 +2,8 @@ name: app-tv-build-action-release
 on:
   workflow_dispatch:
   push:
-  branches:
-  - master
+    branches:
+      - master
 jobs:
   build-tv:
     runs-on: macos-latest
